@@ -1,2 +1,1 @@
-# MyESSBO
-"MI Result Hub: The ultimate semester calculator for Math &amp; CS students. Calculate grades and generate certificates with a high-tech Matrix UI."
+"حاسبة معدل تفاعلية ومتجاوبة لطلاب المدرسة العليا في العلوم البيولوجية بوهران (ESSBO). تدعم نظام (60/40)، اللغتين العربية والإنجليزية، وتتميز بتصميم بيولوجي عصري."

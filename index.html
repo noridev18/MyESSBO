@@ -72,28 +72,28 @@
 
         .section-title { 
             display: flex; align-items: center; gap: 8px;
-            color: var(--gold); margin: 23px 0 13px; font-size: 0.85rem; font-weight: bold;
+            color: var(--gold); margin: 23px 0 13px; font-size: 0.80rem; font-weight: bold;
         }
-        [dir="rtl"] .section-title { border-right: 4px solid var(--neon-green); padding-right: 10px; }
-        [dir="ltr"] .section-title { border-left: 4px solid var(--neon-green); padding-left: 10px; }
+        [dir="rtl"] .section-title { border-right: 4px solid var(--neon-green); padding-right: 8px; }
+        [dir="ltr"] .section-title { border-left: 4px solid var(--neon-green); padding-left: 8px; }
 
         .data-card { 
-            background: var(--card-bg); border-radius: 18px; padding: 20px; 
-            border: 1px solid rgba(0,255,136,0.15); margin-bottom: 20px;
+            background: var(--card-bg); border-radius: 15px; padding: 15px; 
+            border: 1px solid rgba(0,255,136,0.15); margin-bottom: 15px;
             position: relative; transition: 0.3s ease-in-out;
         }
 
         .inputs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 12px; margin-top: 15px; }
 
-        input { width: 100%; padding: 12px; background: rgba(0,0,0,0.5); border: 1px solid #14532d; border-radius: 10px; color: white; outline: none; }
+        input { width: 100%; padding: 10px; background: rgba(0,0,0,0.5); border: 1px solid #14532d; border-radius: 10px; color: white; outline: none; }
         label { font-size: 0.7rem; color: var(--neon-aqua); display: block; margin-bottom: 6px; }
 
         .empty-state {
             border: 2px dashed rgba(212, 175, 55, 0.3);
-            border-radius: 20px; padding: 50px 20px; text-align: center; margin: 20px 0;
+            border-radius: 20px; padding: 40px 15px; text-align: center; margin: 20px 0;
             background: rgba(212, 175, 55, 0.05);
         }
-        .empty-state i { font-size: 3.5rem; color: var(--neon-green); margin-bottom: 15px; opacity: 0.8; }
+        .empty-state i { font-size: 3.0rem; color: var(--neon-green); margin-bottom: 10px; opacity: 0.8; }
 
         .social-section { margin: 40px 0 140px; }
         .social-links { display: flex; justify-content: center; gap: 30px; margin-top: 15px; }
